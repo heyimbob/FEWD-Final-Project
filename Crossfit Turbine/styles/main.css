@@ -1,0 +1,63 @@
+/* CSS YAY */
+
+body header {
+  width: margin 0 auto;
+  height: 75px;
+  border: 1px solid red;
+}
+
+main section {
+  border: 3px dotted brown;
+}
+
+footer {
+  width: margin 0 auto;
+  height: 50px;
+  border: 1px dotted red;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+#slider {
+  width: margin 0 auto;
+  height: 500px;
+  border: 12px dashed pink;
+}
+
+.flexContent {
+  display: flex;
+  margin: 0 auto;
+}
+
+
+/*.wrap {*/
+    /*-webkit-flex-wrap: wrap;*/
+    /*flex-wrap: wrap;*/
+/*}*/
+
+.schedule {
+  order: 0;
+  flex-grow: 1;
+  height: 200px;
+}
+
+.WOD {
+  order: 1;
+  flex-grow: 1;
+  height: 200px;
+}
+
+.contactBox {
+  order: 0;
+  flex-grow: 1;
+  height: 200px;
+}
+
+.locationBox {
+  order: 1;
+  flex-grow: 1;
+  height: 200px;
+}
