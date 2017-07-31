@@ -2448,6 +2448,8 @@ if (jQuery) {
           }
         });
 
+          
+
         // Resize Image
         origin.velocity({
           width: originalWidth,

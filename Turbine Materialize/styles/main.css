@@ -1,41 +1,50 @@
-/* CSS YAY */
+/*.questions {
+  margin: 10px;
 
+}*/
+
+/*.questionButton {
+  text-align: center;
+}*/
+
+/* CSS YAY */
+/*
 body header {
   border: 1px solid red;
-}
+}*/
 
-main section {
+/*main section {
   border: 3px dotted brown;
-}
+}*/
 
-footer {
+/*footer {
   width: margin 0 auto;
-/*  height: 50px;
-*/  border: 1px dotted red;
-}
+  height: 50px;
+  border: 1px dotted red;
+}*/
 
 /*#container {
   width: 100%;
   margin: auto;
 }*/
 
-#slider {
+/*#slider {
   width: margin 0 auto;
   height: 500px;
   border: 12px dashed pink;
-}
+}*/
 
-.flexContent {
+/*.flexContent {
   display: flex;
   margin: 0 auto;
-}
+}*/
 
 
 /*.wrap {*/
     /*-webkit-flex-wrap: wrap;*/
     /*flex-wrap: wrap;*/
 /*}*/
-
+/*
 .schedule {
   order: 0;
   flex-grow: 1;
@@ -59,3 +68,4 @@ footer {
   flex-grow: 1;
   height: 200px;
 }
+*/
