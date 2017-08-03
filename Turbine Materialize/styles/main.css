@@ -1,3 +1,16 @@
+ nav .turbine-logo.right {
+    right: 0.5rem;
+    left: auto;
+    max-height: 60px;
+    padding-top: 0.5rem;
+  }
+
+
+.icon-blue {
+  color: #03a9f4;
+}
+
+
 /*.questions {
   margin: 10px;
 
