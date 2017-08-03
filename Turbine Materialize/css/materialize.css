@@ -4285,7 +4285,7 @@ nav .brand-logo.center {
             transform: translateX(-50%);
   }
   nav .brand-logo.left, nav .brand-logo.right {
-    padding: 0;
+    padding: 20px;
     -webkit-transform: none;
             transform: none;
   }
@@ -4299,8 +4299,9 @@ nav .brand-logo.center {
 }
 
 nav .brand-logo.right {
-  right: 0.rem;
-  padding: 0;
+  right: 0.5rem;
+  padding: 0.5rem;
+  max-height: 1rem;
 }
 
 nav .brand-logo i,
