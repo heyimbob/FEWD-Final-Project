@@ -6,6 +6,7 @@
     $('select').material_select();
   });
 
+<<<<<<< HEAD
 
 
 
@@ -20,3 +21,6 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+=======
+$(".button-collapse").sideNav();
+>>>>>>> 472fffd388a77372c2bc531033c8b3cbbd6923b2
