@@ -11,6 +11,42 @@
 }
 
 
+/*cards*/
+
+.cardRow {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0px;
+}
+
+.cardRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cardRow {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.cardRow .cardCol {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 1px;
+}
+
+.cardRow .cardCol.s6 {
+  width: 50%;
+  margin-left: 0;
+  left: 0;
+  right: o;
+}
+
+
+
 /*.questions {
   margin: 10px;
 

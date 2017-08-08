@@ -6,4 +6,4 @@
     $('select').material_select();
   });
 
-$(".button-collapse").sideNav();
+$('.button-collapse').sideNav();
