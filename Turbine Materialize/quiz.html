@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/quiz.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
 
   </head>
@@ -46,16 +47,16 @@
         <form class="col s12">
           <div class="row">
             <div class="input-field col s12 m6">
-              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <input placeholder="First Name" id="first_name" type="text" class="validate">
               <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s12 m6">
-              <input id="last_name" type="text" class="validate">
+              <input placeholder="Last Name" id="last_name" type="text" class="validate">
               <label for="last_name">Last Name</label>
             </div>
 
             <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton">button</a>
+              <a class="waves-effect waves-light btn questionButton" id="name_btn">Get Started!</a>
             </div>
           </div>
         </form>
@@ -64,18 +65,17 @@
     <div class="row">
       <form class="col s12">
         <div class="row">
-          <div class="input-field col s12">
-            <p>What are you fitness goals?</p>
-            <select>
+          <div class="input-field col s12" id="first_question">
+            <p>What is your current fitness level?</p>
+            <select name="question1" id="question1">
               <option value="" disabled selected>Choose your option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+              <option value="1">I'm pretty new at everything</option>
+              <option value="0">I know basic lifts, but could use a refresher/option>
+              <option value="2">I'm a current athlete</option>
             </select>
-            <label>Materialize Select</label>
             </div>
             <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton">button</a>
+              <a class="waves-effect waves-light btn questionButton" id="questionOnebtn">Neat!</a>
             </div>
           </div>
         </form>
@@ -85,17 +85,17 @@
       <form class="col s12">
         <div class="row">
           <div class="input-field col s12">
-            <p>What is your current sitness level?</p>
+            <p>What are your health goals?</p>
             <select>
               <option value="" disabled selected>Choose your option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+              <option value="0">Overall Fitness</option>
+              <option value="0">Weight Loss</option>
+              <option value="0">Get swole</option>
+              <option value="1">I'm headed to the Crossfit Games</option>
             </select>
-            <label>Materialize Select</label>
             </div>
             <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton">button</a>
+              <a class="waves-effect waves-light btn questionButton" id="questionTwobtn">Awesome!</a>
             </div>
           </div>
         </form>
@@ -108,14 +108,15 @@
             <p>Which program are you intersted in?</p>
             <select>
               <option value="" disabled selected>Choose your option</option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
+              <option value="0">Crossfit Classes</option>
+              <option value="0">Gynamstics</option>
+              <option value="0">Olympic Lifting</option>
+              <option value="1">Barbell Betties</option>
+              <option value="0">Strongman/option>
             </select>
-              <label>Materialize Select</label>
             </div>
             <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton">button</a>
+              <a class="waves-effect waves-light btn questionButton" id="questionThreebtn">Sweet!</a>
             </div>
           </div>
         </form>
@@ -128,20 +129,38 @@
             <p>When do you usually workout?</p>
             <select>
               <option value="" disabled selected>Choose your option</option>
-              <option value="1">Morning</option>
-              <option value="2">Afternoon</option>
-              <option value="3">Evening</option>
+              <option value="0">Morning</option>
+              <option value="0">Afternoon</option>
+              <option value="0">Evening</option>
             </select>
-              <label>Materialize Select</label>
             </div>
             <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton">button</a>
+              <a class="waves-effect waves-light btn questionButton" id="questionFourbtn">Next</a>
+            </div>
+          </div>
+        </form>
+      </div> 
+
+      
+      <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <p>For your first class, you;d like to be trained by...</p>
+            <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="0">Male Trainer/option>
+              <option value="1">Female Trainer</option>
+              <option value="0">No Preference</option>
+            </select>
+            </div>
+            <div class="col s12">
+              <a class="waves-effect waves-light btn questionButton" id="questionFivebtn">No prob!</a>
             </div>
           </div>
         </form>
       </div> 
 </section>
-      
     
   </main>
 
