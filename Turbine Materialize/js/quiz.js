@@ -20,12 +20,12 @@ window.onload = function(event) {
 	var twoC = document.getElementById('choice-six');
 	var twoD = document.getElementById('choice-seven');
 
-// nameBtn.onclick = function(event) {
-// 		console.log(firstNameInput.value);
-// 		console.log(lastNameInput.value);
-// 	}
+nameBtn.onclick = function(event) {
+		console.log(firstNameInput.value);
+		console.log(lastNameInput.value);
+	}
 
-// 	console.log(firstNameInput, lastNameInput, nameBtn);
+	console.log(firstNameInput, lastNameInput, nameBtn);
 
 qOneBtn.onclick = function(event) {
 	function GetSelectedItem() {

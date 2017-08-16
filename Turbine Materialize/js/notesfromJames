@@ -1,0 +1,25 @@
+ <input placeholder=​"Last Name" id=​"last_name" type=​"text" class=​"validate valid">​ <a class=​"waves-effect waves-light btn questionButton" id=​"name_btn">​Get Started!​</a>​
+quiz.js:24 lol
+quiz.js:25 :)
+let x = document.getElementsByClassName('select-dropdown')[0];
+undefined
+x
+<input type=​"text" class=​"select-dropdown" readonly=​"true" data-activates=​"select-options-e0e850d8-c501-f66c-35c6-65c5f7390b0e" value=​"Choose your option">​
+x.hasChildNodes
+ƒ hasChildNodes() { [native code] }
+x.hasChildNodes()
+false
+x.childElementCount
+0
+x.value
+"I know basic lifts, but could use a refresher/option>              "
+x.value
+"I know basic lifts, but could use a refresher/option>              "
+x.value
+"I'm a current athlete"
+x.child
+undefined
+x.childElementCount
+0
+x.childElementCount
+0
