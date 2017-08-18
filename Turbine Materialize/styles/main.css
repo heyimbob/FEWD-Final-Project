@@ -64,10 +64,11 @@ nav .turbine-logo.right {
   top: 0; left: 0; bottom: 0; right: 0;
   max-width: 150px;
 }
-/*.questions {
-  margin: 10px;
 
-}*/
+.topQuestion {
+  margin-top: 5%;
+
+}
 
 /*.questionButton {
   text-align: center;
