@@ -43,7 +43,7 @@
   <main>
     
     <section class="container questions">
-      <div class="row">
+      <div class="row topQuestion">
         <form class="col s12">
           <div class="row">
             <div class="input-field col s12 m6">
@@ -53,10 +53,6 @@
             <div class="input-field col s12 m6">
               <input placeholder="Last Name" id="last_name" type="text" class="validate">
               <label for="last_name">Last Name</label>
-            </div>
-
-            <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton" id="name_btn">Get Started!</a>
             </div>
           </div>
         </form>
@@ -69,13 +65,10 @@
             <p>What is your current fitness level?</p>
             <select name="question1" id="question1">
               <option value="" disabled selected>Choose your option</option>
-              <option value="1">I'm pretty new at everything</option>
-              <option value="0">I know basic lifts, but could use a refresher/option>
-              <option value="2">I'm a current athlete</option>
+              <option id="oneA" value="1">I'm pretty new at everything</option>
+              <option id="oneB" value="0">I know basic lifts, but could use a refresher</option>
+              <option id="oneC" value="2">I'm a current athlete</option>
             </select>
-            </div>
-            <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton" id="questionOnebtn">Neat!</a>
             </div>
           </div>
         </form>
@@ -93,9 +86,6 @@
               <option value="0">Get swole</option>
               <option value="1">I'm headed to the Crossfit Games</option>
             </select>
-            </div>
-            <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton" id="questionTwobtn">Awesome!</a>
             </div>
           </div>
         </form>
@@ -115,9 +105,6 @@
               <option value="0">Strongman/option>
             </select>
             </div>
-            <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton" id="questionThreebtn">Sweet!</a>
-            </div>
           </div>
         </form>
       </div> 
@@ -134,9 +121,6 @@
               <option value="0">Evening</option>
             </select>
             </div>
-            <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton" id="questionFourbtn">Next</a>
-            </div>
           </div>
         </form>
       </div> 
@@ -146,7 +130,7 @@
       <form class="col s12">
         <div class="row">
           <div class="input-field col s12">
-            <p>For your first class, you;d like to be trained by...</p>
+            <p>For your first class, you'd like to be trained by...</p>
             <select>
               <option value="" disabled selected>Choose your option</option>
               <option value="0">Male Trainer/option>
@@ -155,7 +139,7 @@
             </select>
             </div>
             <div class="col s12">
-              <a class="waves-effect waves-light btn questionButton" id="questionFivebtn">No prob!</a>
+              <a class="waves-effect waves-light btn questionButton" id="questionSubmit">Submit!</a>
             </div>
           </div>
         </form>

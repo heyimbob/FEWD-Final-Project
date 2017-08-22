@@ -39,14 +39,6 @@ nav .turbine-logo.right {
 
 /*cards*/
 
-.cardCell {
-  /*float: left;*/
-  border: blue 1px dashed;
-  min-width: 300px;
-  height: 300px;
-
-}
-
 .cardCol {
   border: pink 1px dotted;
     /*min-height: 100px;*/
@@ -54,12 +46,15 @@ nav .turbine-logo.right {
 }
 
 .cardCell {
-  /*background: url(../images/heroslider2.jpg);*/
+  background: url(../images/heroslider2.jpg);
   max-height: auto;
-  max-width: 100%;
-
+  /*max-width: 100%;*/
+  background-size: cover;
+  background-position: center;
   padding: 0;
   position: relative;  
+  border: blue 1px dashed;
+  height: 300px;
 
 }
 
@@ -69,10 +64,11 @@ nav .turbine-logo.right {
   top: 0; left: 0; bottom: 0; right: 0;
   max-width: 150px;
 }
-/*.questions {
-  margin: 10px;
 
-}*/
+.topQuestion {
+  margin-top: 5%;
+
+}
 
 /*.questionButton {
   text-align: center;
