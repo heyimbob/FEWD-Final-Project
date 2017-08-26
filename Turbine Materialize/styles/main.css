@@ -30,12 +30,122 @@ nav .turbine-logo.right {
   list-style-type: none;
   float: left;
  }
+
 .footerdesign {
   padding: 10px;
 }
 
 
+.hero {
+  background: url(../images/hero3-1600x808.jpg);
+  max-height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  position: relative;
+  height: 400px;
+}
 
+.indexrows {
+  background: url(../images/hero3-1600x808.jpg);
+  max-height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 200px;
+  /* padding: 100px; */
+}
+
+.indexrowswod {
+  background: url(../images/heroslider2.jpg);
+  max-height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+  /* padding: 100px; */
+}
+
+.indexrowscoach {
+  background: url(../images/coachesbox.jpg);
+  max-height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 300px;
+  /* padding: 100px; */
+}
+
+.stickyheader {
+  z-index: 999;
+}
+
+.quizwrapper {
+  height: 500px;
+}
+
+/* OVERLAY */
+.overlay-wrapper {
+  width: 100%;
+  position: relative;
+  color: white;
+  
+}  
+
+.overlay-wrapper h1 {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 5rem;
+  color: white;
+  z-index: 21;
+}  
+
+.overlay-wrapper p {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 21;
+} 
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+bottom: 0;
+  }
+
+  .features {
+    text-align: center;
+    color: darkslategrey;
+    margin-bottom: 2rem;
+  }
+
+  .features h3 {
+    font-weight: bolder;
+  }
+
+  .hero h1 {
+    font-weight: bolder;
+  }
+  .index-divider {
+    padding: 3rem;
+  }
+
+  .indexrowswod h3 {
+    font-weight: bolder;
+    padding-top: 2rem;
+  }
+
+  .indexrowscoach h3 {
+    font-weight: bolder;
+    padding-top: 2rem;
+  }
 
 /*cards*/
 
@@ -60,9 +170,42 @@ nav .turbine-logo.right {
 
 .button {
   margin: auto;
+  margin-top: 18rem;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   max-width: 150px;
+  font-size: 0.8rem;
+}
+
+.indexrows-button {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  max-width: 150px;
+}
+
+.indexrows h3 {
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 21;
+}
+
+.indexrowswod h3 {
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 21;
+}
+
+.indexrowscoach h3 {
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: 21;
 }
 
 .topQuestion {
@@ -70,78 +213,11 @@ nav .turbine-logo.right {
 
 }
 
-/*.questionButton {
+.unique {
   text-align: center;
-}*/
-
-/* CSS YAY */
-/*
-body header {
-  border: 1px solid red;
-}*/
-
-/*main section {
-  border: 3px dotted brown;
-}*/
-
-/*footer {
-  width: margin 0 auto;
-  height: 50px;
-  border: 1px dotted red;
-}*/
-
-/*#container {
-  width: 100%;
-  margin: auto;
-}*/
-
-/*#slider {
-  width: margin 0 auto;
-  height: 500px;
-  border: 12px dashed pink;
-}*/
-
-/*.flexContent {
-  display: flex;
-  margin: 0 auto;
-}*/
-
-
-/*.wrap {*/
-    /*-webkit-flex-wrap: wrap;*/
-    /*flex-wrap: wrap;*/
-/*}*/
-/*
-.schedule {
-  order: 0;
-  flex-grow: 1;
-  height: 200px;
+  font-weight: bolder;
+  font-size: 2rem;
 }
-
-.WOD {
-  order: 1;
-  flex-grow: 1;
-  height: 200px;
-}
-
-.contactBox {
-  order: 0;
-  flex-grow: 1;
-  height: 200px;
-}
-
-.locationBox {
-  order: 1;
-  flex-grow: 1;
-  height: 200px;
-}
-*/
-
-
-
-
-
-
 
 /* media queries */
 
@@ -152,4 +228,14 @@ body header {
       .row .col.m6 {
         width: 100%;
       }
+    h1 {
+      font-size: 2rem;
+    }
+     p {
+        font-size: 1rem;
+      }
+    }
+    .features h3 {
+      font-size: 1.5rem;
+    }
 }

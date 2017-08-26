@@ -3,6 +3,8 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -3407,7 +3409,7 @@ nav ul a span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .row:after {
@@ -4242,8 +4244,11 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
-  position: relative;
-  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 @media only screen and (min-width: 993px) {
