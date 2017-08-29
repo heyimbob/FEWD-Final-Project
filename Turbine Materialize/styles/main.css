@@ -219,6 +219,68 @@ bottom: 0;
   font-size: 2rem;
 }
 
+/* begin coaches.html css */
+
+.left {
+  /* border:  1px dotted green; */
+  height: 100px;
+  /* width: 100%; */
+}
+
+.coachsection {
+  padding-top: 2rem;
+  height: 500px;
+}
+
+.coach {
+  position: relative;
+  width: 200px;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.coach img {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+}
+
+.coach img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.coachname {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+/* Begin Quiz styles */
+
+#quiz {
+  margin-bottom:5%;
+  margin-top: 5%;
+}
+
+.quizheader {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.questionbutton {
+  padding-top: 2%;
+  
+}
+
+
+
 /* media queries */
 
 @media only screen and (max-width: 601px) {

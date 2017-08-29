@@ -30,7 +30,7 @@
             </ul>
 
             <ul class="side-nav" id="mobile-demo">
-               <li><a class="blue-text text-darken-1" href="./index.html">Home</a></li>
+              <li><a class="blue-text text-darken-1" href="./index.html">Home</a></li>
               <li><a class="blue-text text-darken-1" href="./quiz.html">Get Started</a></li>
               <li><a class="blue-text text-darken-1" href="">Schedule</a></li>
               <li><a class="blue-text text-darken-1" href="">Class Types</a></li>
@@ -78,7 +78,7 @@
     <div class="row overlay-wrapper valign-wrapper">
         <div class="col s12 indexrowswod">
               <h3>What's the workout?</h3>
-              <a class="waves-effect waves-light btn red darken-4 indexrows-button CTAbutton">WOD</a>            
+              <a class="waves-effect waves-light btn red darken-4 indexrows-button">WOD</a>            
           <div class="overlay">
           </div>
         </div>
@@ -87,18 +87,130 @@
       <div class="row overlay-wrapper valign-wrapper">
           <div class="col s12 indexrowscoach">
                 <h3>Meet our coaches</h3>
-                <a class="waves-effect waves-light btn red darken-4 indexrows-button CTAbutton">OK!</a>            
+                <a class="waves-effect waves-light btn red darken-4 indexrows-button">OK!</a>            
             <div class="overlay">
             </div>
           </div>
         </div>
 
+      <form id="quizify" class="col s12" action="">
         <div id="quiz" class="row">
-          <div class="col s12 quizwrapper">
-                <h3>Quiz Placeholder</h3>
-            </div>
+            <section class="container questions">
+              <h1 class="quizheader">Coachify yourself</h1>
+
+                <div class="row topQuestion">
+                  <!-- <form class="col s12"> -->
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <input placeholder="First Name" name="first_name" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <input placeholder="Last Name" name="last_name" id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                      </div>
+                    </div>
+                  <!-- </form> -->
+                </div>    
+              
+              <div class="row">
+                <!-- <form class="col s12"> -->
+                  <div class="row">
+                    <div class="input-field col s12" name="first_question" id="first_question">
+                      <p>What is your current fitness level?</p>
+                      <select name="question1" id="question1">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option id="oneA" value="1">I'm pretty new at everything</option>
+                        <option id="oneB" value="0">I know basic lifts, but could use a refresher</option>
+                        <option id="oneC" value="2">I'm a current athlete</option>
+                      </select>
+                      </div>
+                    </div>
+                  <!-- </form> -->
+                </div> 
+          
+                <div class="row">
+                <!-- <form class="col s12"> -->
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <p>What are your health goals?</p>
+                      <select  name="question2" id="question2">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="0">Overall Fitness</option>
+                        <option value="0">Weight Loss</option>
+                        <option value="0">Get swole</option>
+                        <option value="1">I'm headed to the Crossfit Games</option>
+                      </select>
+                      </div>
+                    </div>
+                  <!-- </form> -->
+                </div> 
+          
+                <div class="row">
+                <!-- <form class="col s12"> -->
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <p>Which program are you intersted in?</p>
+                      <select  name="question3" id="question3">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="0">Crossfit Classes</option>
+                        <option value="0">Gynamstics</option>
+                        <option value="0">Olympic Lifting</option>
+                        <option value="1">Barbell Betties</option>
+                        <option value="0">Strongman/option>
+                      </select>
+                      </div>
+                    </div>
+                  <!-- </form> -->
+                </div> 
+          
+                <div class="row">
+                <!-- <form class="col s12"> -->
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <p>When do you usually workout?</p>
+                      <select name="question4" id="question4">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="0">Morning</option>
+                        <option value="0">Afternoon</option>
+                        <option value="0">Evening</option>
+                      </select>
+                      </div>
+                    </div>
+                  <!-- </form> -->
+                </div> 
+          
+                
+                <div class="row">
+                <!-- <form class="col s12"> -->
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <p>For your first class, you'd like to be trained by...</p>
+                      <select name="question5" id="question5">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="0">Male Trainer</option>
+                        <option value="1">Female Trainer</option>
+                        <option value="0">No Preference</option>
+                      </select>
+                      </div>
+                      <div class="col s12">
+                        <!-- <div class="center-align questionbutton">
+                          <a class="waves-effect waves-light btn red darken-4" id="questionSubmit">Submit!</a>
+                        </div> -->
+                        <button>SUBMIT</button>
+                      </div>
+                    </div>
+                  <!-- </form> -->
+                </div>
+              </form>  
+            
+            
+
+          </section>
           </div>
         </div>
+
+        <div id="trainerslot"></div>
 
           <div class="col s12">
               <div id="map"></div>
